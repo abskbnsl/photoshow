@@ -1,0 +1,128 @@
+
+
+ .navbar{
+    background-color:thistle;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    font-size:30px;
+    padding:40px;
+    width:100%
+    }
+    .navbar * {
+        display: inline;
+        }
+    .nav-item{
+        padding:10px;
+        color:springgreen;
+        background-color:magenta;
+
+    }
+    .navbar:hover{
+        background-color: turquoise;
+    }
+    .nav-item:hover{
+        background-color:mediumpurple;
+    }
+    .logo{
+        padding:50px 70px 50px 0px;
+        font-size:50px;
+        color:red;
+        left:0;
+        
+    }
+    .logo:hover{
+        background-color: sandybrown;
+    }
+b{
+    color:greenyellow;
+}
+.banner{
+    color:tomato;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-top:120px ;
+    background-image: url('images/slide-1.jpg');
+    height:650px;
+}
+.photo{
+    padding:0px;
+    margin:0px;
+   
+    
+  
+}
+
+.gallery{
+    background-color:mediumorchid ;
+    
+    
+    width: 100%;
+    float:center;
+    
+}
+body{
+    background-color:mediumorchid;
+}
+
+#whatsapp{
+    padding-left: 30px;
+    
+  
+}
+.msg{
+    width:60%;
+    float:left;
+    margin-top: 40px;
+
+}
+.click{
+    width:40%;
+    float:right;
+    
+    font-size: larger;
+   
+}
+button{
+    font-size: larger;
+    padding:10px;
+    margin:50px;
+    background-color:blue;
+    
+}
+.click a{
+    color:cyan;
+}
+.query{
+    height:150px;
+    background-color:lightslategrey;
+}
+
+
+.social-icons{
+   
+    
+    color: black;
+    display: flex;
+    width:20%;
+    float:right;
+    margin:40px;
+    height:60px;
+    ;
+}
+.social-link{
+    padding:15px;
+    
+}
+
+.social-link i{
+    padding:12px;
+    background-color:white;
+}
